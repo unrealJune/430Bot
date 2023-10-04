@@ -34,6 +34,8 @@ jobs:
         
     - name: Run Script
       run: |
+        export CANVAS_API_KEY=${{ secrets.CANVAS_API_KEY }}
+        export CANVAS_API_URL=${{ secrets.CANVAS_API_URL }}
         python canvas.py
     - name: Git Commit/Push Changes
       # You may pin to the exact commit or the version.

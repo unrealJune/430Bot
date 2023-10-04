@@ -6,6 +6,7 @@ import os
 # Canvas API URL
 API_URL = os.environ['CANVAS_API_URL']
 API_KEY = os.environ['CANVAS_API_KEY']
+BOT_ID =  os.environ['BOT_ID']
 COURSE = 1350066
 
 pwd = os.getcwd()
@@ -35,7 +36,7 @@ assList = CSClass.get_assignments()
 
 for assignment in assList:
     if str(assignment) not in assignments:
-        data =  '{"text": " ' + "New Assignment: " + str(assignment) + " " + str(assignment.html_url) + ' ","bot_id": "' + "a07c779ea9ac416e6601387688" + '"}'
+        data =  '{"text": " ' + "New Assignment: " + str(assignment) + " " + str(assignment.html_url) + ' ","bot_id": "' + str(BOT_ID) + '"}'
 
 
         #curl GroupMe

@@ -5,7 +5,7 @@ import os
 
 # Canvas API URL
 API_URL = os.environ['CANVAS_API_URL']
-API_KEY = os.enviorn['CANVAS_API_KEY']
+API_KEY = os.environ['CANVAS_API_KEY']
 COURSE = 1350066
 
 pwd = os.getcwd()

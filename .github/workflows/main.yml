@@ -43,9 +43,9 @@ jobs:
       uses: actions-x/commit@v6
       with:
         # The committer's email address
-        email: actions@junephilip.com
+        email: mail.junephilip@gmail.com
         # The committer's name
-        name: Actions
+        name: June Philip
         branch:  ${{ github.ref }}
         files: .
         repository: origin

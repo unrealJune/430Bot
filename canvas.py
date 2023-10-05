@@ -12,7 +12,6 @@ COURSE = 1350066
 pwd = os.getcwd()
 
 ASSIGNMENT_FILE = pwd + "/assignments.txt"
-LOG_FILE = pwd + "/log.txt"
 
 # Initialize a new Canvas object
 canvas = Canvas(API_URL, API_KEY)
@@ -49,9 +48,4 @@ for assignment in assList:
         f.write(str(assignment) + ",")
         f.close()
 
-
-#write log
-f = open(LOG_FILE, "a")
-f.write("SCRIPT RUN :" + str(datetime.now()) + "\n")
-f.close()
     

@@ -1,1 +1,1 @@
-Getting to know you survey (6531196),Racket Basics (6531199),Extort (6557797),More Racket Basics (6531198),Compiler Basics (6531197),   Thinking about the Stack and Compile-time Environment (6531200),Thinking about the Stack and Compile-time Environment (6531200),
+Getting to know you survey (6531196),Racket Basics (6531199),Extort (6557797),More Racket Basics (6531198),Compiler Basics (6531197),   Thinking about the Stack and Compile-time Environment (6531200),Thinking about the Stack and Compile-time Environment (6531200),Midterm 1 (6562930),
